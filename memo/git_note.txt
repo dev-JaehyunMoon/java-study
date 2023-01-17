@@ -1,0 +1,18 @@
+git init 깃 시작
+git config --list 리스트 확인
+git status 깃 상태 확인
+cd memo
+git add OOO.txt
+cd ..
+cd workspace
+git add OOO
+cd ..
+cd commit -m "OOO study"
+git remote -v
+git remote add origin https://github.com/dev-dennisjeong/study-java.git
+git remote -v
+git push origin master
+git log --pretty=fuller
+GIT_AUTHOR_DATE="Tue Jan 16 23:05:05 2023 +0900" git commit --amend --date "Tue Jan 16 23:05:05 2023 +0900"
+GIT_COMMITTER_DATE="Tue Jan 16 23:05:05 2023 +0900" git commit --amend --date "Tue Jan 16 23:05:05 2023 +0900"
+git push -f origin master
