@@ -13,9 +13,10 @@ public class Test {
 //      salaryVO.setSalary(15100);
 //      salaryVO.setIncomeTax(1000000);
 //      salaryVO.setNetPay(9_000_000);
-//      
+//  
 //      salaryDAO.insert(salaryVO);
-      salaryDAO.delete(salaryVO);
+//      salaryDAO.delete(salaryVO);
+      System.out.println(salaryDAO.select(3500));
 //      salaryDAO.update(salaryVO);
    }
 }
